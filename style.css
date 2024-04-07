@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+
+}
+body
+{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-family: sans-serif;
+}
+#bgimg img{
+    width: 100%;
+    
+}
+#bgsheet
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 851px;
+    position:absolute;
+    top: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+nav img{
+    width: 170px;
+    margin-left: 30px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: rgba(255, 21, 0, 0.938);
+    color: white;
+    font-weight: 400;
+    padding: 7px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#lang-btn
+{
+    background: transparent;
+    border: 1.4px solid white;
+}
+#lang-btn img
+{
+width: 10px;
+margin-left: 10px;
+}
+#contentbox
+{
+    width: 900px; 
+    height: 300px;
+    position: relative;
+    top: 240px;
+    left: 310px;
+    background-color: rgba(0, 0, 0, 0.053);
+    
+}
+#contentbox h1{
+    
+    font-size: 45px;
+    font-weight: 700px;
+}
+#contentbox h3{
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: 400px;
+    letter-spacing: 1.3px;
+}
+.contentmain
+{
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 0 0 10px black;
+}
+.email-signup p
+{
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+    
+
+}
+#get-mail button
+{
+
+    border: 0;
+    outline: 0;
+    background: rgba(255, 21, 0, 0.938);
+    color: white;
+    font-weight: 400;
+    padding: 9px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#get-mail input
+{
+    background: rgba(8, 8, 8, 0.508);
+    border: 1.4px solid rgb(60, 56, 56);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 9px 25px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+.division
+{
+    background-color: rgb(34, 33, 33);
+    height: 8px;
+    width: 100%;
+}
+.features
+{
+    padding: 50px 10%;
+    font-size: 22px;
+
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.text
+{
+    flex-basis: 50%;
+}
+.text h2{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.image
+{
+    flex-basis: 50%;
+}
+.image img
+{
+    display: block;
+    width: 100%;
+}
+/* ---------------------FAQ-------------------------- */
+.faq
+{
+    font-size: 18px;
+padding: 20px 12%;
+
+}
+.faq h2
+{
+    font-weight: 500;
+    text-align: center;
+font-size: 50px;
+margin-bottom: 80px;
+}
+.Questions
+{
+    padding: 0 50px;
+    width: 100%;
+    max-width: 750px;
+    margin-left: 120px;
+}
+ul li 
+{
+    list-style: none;
+   width: 100%;
+    padding: 5px;
+}
+
+ul li label
+{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgb(47, 46, 46);
+    padding: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 2px;
+}
+li label::after{
+    content: '+';
+    right: 20px;
+    position: absolute;
+    font-size: 39px;
+
+}
+input[type="radio"]
+{
+    display: none;
+}
+.Questions .content
+{
+    background-color: rgb(47, 46, 46);
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.Questions  input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.Questions  input[type="radio"]:checked + label::after
+{
+    transform: rotate(135deg);
+}
+#get-in
+{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.faq p{
+    text-align: center;
+    margin-top: 30px;
+}
+/* -------------------------------footer links--------------------------------- */
+#footer
+{
+    padding: 80px 200px;
+}
+#links
+{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+#links a {
+    color: rgb(189, 189, 189);
+    margin-bottom: 20px;
+    flex-basis:25%;
+    font-size: 12ppx;
+}
+#lang-btn-down
+{
+    border: 0;
+    outline: 0;
+    background: rgba(255, 21, 0, 0.938);
+    color: white;
+    font-weight: 400;
+    padding: 7px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: transparent;
+    border: 1.4px solid white;
+    margin-bottom: 20px;
+}
+#lang-btn-down img
+{
+width: 10px;
+margin-left: 10px;
+}
